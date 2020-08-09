@@ -1,0 +1,62 @@
+body{
+    background-image: url(RR-logo.jpg);
+    background-repeat: no-repeat; 
+}
+
+.title{
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.body{
+    background-color: #18191a;
+    border: black;
+    border-style: solid;
+    border-width: auto;
+    color: whitesmoke;
+    margin-left: 24%;
+    margin-right: 24%;
+
+}
+
+.contactBody{
+    background-color: #18191a;
+    border: black;
+    border-style: solid;
+    border-width: auto;
+    color: whitesmoke;
+    margin-top: 15px;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+.list{
+    font-size: xx-large;
+}
+
+.about{
+    font-size: xx-large;
+}
+
+.button{
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: #fff;
+    background-color: red;
+    color: white;
+    border: 5px;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 5px;
+    margin-bottom: 25px;
+}
+
+.email{
+    text-align: center;
+    margin-top: 225px;
+}

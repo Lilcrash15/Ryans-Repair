@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="RRCSS.css">
+    <script src="index.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <!--Nav Start-->
+    <nav style="text-align: center;">
+        <input type="button" value="Home" class="button" onclick="window.location.href='index.html'" >
+        <input type="button" value="Contact Us" class="button" onclick="window.location.href='contact-us.html'" >
+    </nav>
+
+    <div class="contactBody">
+    <h1>Contact Us!</h1>
+    <h2>
+        In the box below, please leave your name, phone number, email, and a brief description of questions, comments, or concerns.
+        We will get back with you as soon as possible.
+    </h2>
+
+    </div>
+
+    <div class="email">
+    <textarea name="contactUs" id="contact" cols="30" rows="10"></textarea>
+        <br>
+        <form method="post">
+        <input class="button" style="margin-right: 725px;" type="button" value="Submit" onclick="sendEmail()"/>
+        </form>
+    </div>
+</body>
+</html>
