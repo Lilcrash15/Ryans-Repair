@@ -59,4 +59,11 @@ body{
 .email{
     text-align: center;
     margin-top: 225px;
+    resize: none;
+    size: 100px;
+    font-weight: bold;
+}
+
+.textbox{
+    font-size: large;
 }
