@@ -1,31 +1,24 @@
 body{
-    background-image: url(RR-logo.jpg);
+    background-image: url(RR-log.o.jpg);
     background-repeat: no-repeat; 
 }
 
 .title{
     margin: auto;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .body{
-    background-color: #18191a;
-    border: black;
-    border-style: solid;
     border-width: auto;
-    color: whitesmoke;
+    color: black;
     margin-left: 24%;
     margin-right: 24%;
 
 }
 
 .contactBody{
-    background-color: #18191a;
-    border: black;
-    border-style: solid;
-    border-width: auto;
-    color: whitesmoke;
+    color: black;
     margin-top: 15px;
     margin-left: 24%;
     margin-right: 24%;
@@ -37,6 +30,7 @@ body{
 
 .about{
     font-size: xx-large;
+    text-align: center;
 }
 
 .button{
@@ -47,8 +41,8 @@ body{
     text-align: center;
     text-decoration: none;
     outline: #fff;
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
     border: 5px;
     border-radius: 15px;
     box-shadow: 0 9px #999;
@@ -58,7 +52,6 @@ body{
 
 .email{
     text-align: center;
-    margin-top: 225px;
     resize: none;
     size: 100px;
     font-weight: bold;
@@ -66,4 +59,12 @@ body{
 
 .textbox{
     font-size: large;
+}
+
+.logo{
+    text-align: center;
+}
+
+.custom-build{
+    text-align: center;
 }
