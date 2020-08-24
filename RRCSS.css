@@ -40,12 +40,12 @@ body{
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    outline: #fff;
-    background-color: white;
-    color: black;
+    outline: black;
+    background-color: silver;
+    color: red;
     border: 5px;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px rgb(75, 75, 75);
     margin: 5px;
     margin-bottom: 25px;
 }
@@ -67,4 +67,40 @@ body{
 
 .custom-build{
     text-align: center;
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+    text-align: left;
+}
+
+/* The navbar container */
+.topnav{
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: gray;
+  color: blue;
+  text-align: center;
+}
+
+.logo2{
+    float: left;
+    image-resolution: 160 600;
 }
