@@ -33,29 +33,7 @@
 </head>
 <body>
 
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v8.0'
-        });
-      };
-
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat"
-      attribution=setup_tool
-      page_id="118563072340484">
-    </div>
+    <!--Plans to add facebook page to this page or a new page all together-->
 
     <!--Nav Start-->
         <div class="logo">
@@ -63,6 +41,7 @@
         </div>
     <nav style="text-align: center;">
         <input type="button" value="Home" class="button" onclick="window.location.href='index.html'" >
+        <input type="button" class="button" value="Book an appointment" onclick="window.location.href='booking.html'">
         <input type="button" value="Contact Us" class="button" onclick="window.location.href='contact-us.html'" >
     </nav>
 
@@ -77,11 +56,11 @@
     </div>
 
     <div class="email">
-    <textarea class="textbox" name="Name" id="name" cols="100" rows="1=" placeholder="Your Name" style="resize: none;" maxlength="50"></textarea>
+    <textarea required class="textbox" name="Name" id="name" cols="100" rows="1=" placeholder="Your Name" style="resize: none;" maxlength="50"></textarea>
     <br>
-    <textarea class="textbox" name="useremail" id="useremail" cols="100" rows="1" placeholder="Your Email"  style="resize: none;" maxlength="50"></textarea>
+    <textarea required class="textbox" name="useremail" id="useremail" cols="100" rows="1" placeholder="Your Email"  style="resize: none;" maxlength="50"></textarea>
     <br>
-    <textarea class="textbox" name="SendEmail" id="contact" cols="100" rows="10" placeholder="Short description"  style="resize: none;" maxlength="2000"></textarea>
+    <textarea required class="textbox" name="SendEmail" id="contact" cols="100" rows="10" placeholder="Short description"  style="resize: none;" maxlength="2000"></textarea>
 
     <form method="post">
         <input type="button" value="Submit" onclick="sendEmail(), document.getElementById('name').value = '', document.getElementById('useremail').value = '', document.getElementById('contact').value = ''" class="button"/>
@@ -93,7 +72,7 @@
         </a> 
     </div>
     <p style="text-align: center;">
-    ©Ryans Repair
+    ©Ryan's Repair
     2020
     </p>
 </body>
